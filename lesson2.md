@@ -177,3 +177,41 @@ const total = arr.filter(item => item % 2 === 0)
 
 
 **Đáp án**: 4. `16`
+
+
+## Thực hành:
+
+### 1. Viết một function đảo ngược một string bất kỳ, sử dụng các phương thức của array.
+
+```
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+reverseString("hello");
+reverseString("abcdef");
+```
+
+### 2. Viết một function xoá các phần từ trùng lặp trong một mảng các số:
+```
+function uniq(arr) {
+    return [...new Set(arr)];
+}
+uniq([1, 2, 3, 5, 4, 2, 6, 4]);
+```
+
+### 3. Viết một chương trình lấy phần tử xuất hiện nhiều nhất trong một mảng và số lần suất hiện của nó trong mảng:
+
+```
+function mostFrequent(arr) {
+
+}
+```
+
+
+
+
+
+
+
+
+
