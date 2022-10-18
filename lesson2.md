@@ -78,7 +78,7 @@ array = [...extension, ...array]
 3. `[4, 5, 6, 1, 2, 3]`
 4. `Error`
 
-**Đáp án**: 3. `[4, 5, 6, 1, 2, 3]`
+**Đáp án**: 4. `Error`
 
 
 **Câu 8:** Giá trị của a trong ví dụ sau?
