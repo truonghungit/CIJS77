@@ -7,14 +7,14 @@
 1. True
 2. False
 
-**Đáp án**: 2. False 
+**Đáp án**: 2. False
 
 **Câu 2:** `const` khai báo một biến có phạm vi trong block?
 
 1. True
 2. False
 
-**Đáp án**: 1. True 
+**Đáp án**: 1. True
 
 **Câu 3:** `let` khai báo một biến có phạm vi trong block?
 
@@ -35,7 +35,7 @@ obj.bar = 2
 3. `{foo: 1, bar: 2}`
 4. `{foo: 1, 2: bar}`
 
-**Đáp án**: 3. `{foo: 1, bar: 2}`
+**Đáp án**: 3. {foo: 1, bar: 2}
 
 **Câu 5:** Kết quả của ví dụ sau đây là gì?
 
@@ -49,7 +49,7 @@ const speed = 'quick'
 3. 'The speed brown fox jumps over the lazy dog.’
 4. 'The quick brown fox jumps over the lazy dog.’
 
-**Đáp án**: 4. 'The quick brown fox jumps over the lazy dog.'
+**Đáp án**: 4. `The quick brown fox jumps over the lazy dog.`;
 
 **Câu 6:** Giá trị của câu lệnh `obj[123]` trong ví dụ sau:
 
@@ -181,31 +181,9 @@ const total = arr.filter(item => item % 2 === 0)
 
 ## Thực hành:
 
-### 1. Viết một function đảo ngược một string bất kỳ, sử dụng các phương thức của array.
+main.js
 
-```
-function reverseString(str) {
-    return str.split("").reverse().join("");
-}
-reverseString("hello");
-reverseString("abcdef");
-```
 
-### 2. Viết một function xoá các phần từ trùng lặp trong một mảng các số:
-```
-function uniq(arr) {
-    return [...new Set(arr)];
-}
-uniq([1, 2, 3, 5, 4, 2, 6, 4]);
-```
-
-### 3. Viết một chương trình lấy phần tử xuất hiện nhiều nhất trong một mảng và số lần suất hiện của nó trong mảng:
-
-```
-function mostFrequent(arr) {
-
-}
-```
 
 
 
